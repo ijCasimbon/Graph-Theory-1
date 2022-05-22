@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Conservation Efforts</title>
+    <title>Animal Conservation Efforts</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale1">
-    <link rel="stylesheet" href="howTohelp.css">
+    <link rel="stylesheet" href="css/howTohelp.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
+
 <nav>
     <ul>
         <li><a class = "button" href="index.html">HOME</a></li>
         <li><a class = "button" href="species.html">MEET THE SPECIES</a></li>
-        <li><a class = "button" href="howTohelp.html">CONSERVATION EFFORT</a></li>
+        <li><a class = "button" href="howTohelp.html">CONSERVATION EFFORTS</a></li>
         <li><a class = "button" href="donation.html">HOW YOU CAN HELP</a></li></li>
         <br>
     </ul>
 </nav>
 <div class = "container">
-    <body onload="hideDef()">
-        <input type="button" id="next" value="Whales" onclick='viewTopic("whale")' />
-        <input type="button" id="next" value="Other Sea Creatures;" onclick='viewTopic("sea")' />
-        <input type="button" id="next" value="Forest Animals" onclick='viewTopic("forest")' />
-        <h1 id="" >Animal Conservation</h1>
-        <div id="whale">
-            <h2>WHALES</h2>
-        <p id="whale">This is the first paragraph.</p>
-        </div>
-        <div id="sea">
-            <p>This is the second paragraph.</p>
-        </div>
-        <input type="button" id="next" value="&rarr;" onclick="nextCall()" />
+<body onload="hideDef()">
+    
+    <h1 id="" >Animal Conservation Efforts</h1>
+    <input type="button" id="ocean" value="Ocean Projects" onclick='viewTopic("Ocean")' />
+    <input type="button" id="forest" value="Forest Projects" onclick='viewTopic("Forest")' />
+    <input type="button" id="others" value="Others" onclick='viewTopic("Others")' />
+    <div id="Ocean">
+        <h2>Ocean Projects</h2>
+       <ul id="ocean">
+           <li>Stopping Ghost Gear</li>
+           <li>Universal Standards for Seafood Traceability</li>
+       </ul>
+    </div>
 
-    <script src="howToHelp.js"></script>
-    </body>
-</div> 
+    <div id="Forest">
+        <h2>Forest Projects</h2>
+        <p>This is the second paragraph.</p>
+    </div>
+    <div id="Others">:)</div>
+    
+<script src="scripts/howToHelp.js"></script>
+</body>
+ 
 </html>
