@@ -1,3 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+	height: 1550px;
+	background-color: white;
+}
+
+.border {
+	display: inline-block;
+	width: 100%;
+	height: 1550px;
+	text-align: center;
+}
+
+.TitleName1 {
+	color: black;
+	font-size: 35px;
+	text-align: left;
+	margin-left: 100px;
+}
+
+.TitleBlock1 {
+	display: inline-block;
+	width: 100%;
+	height: 580px;
+	background-color: white;
+}
+
+.titleBlock img {
+	display: block;
+	width: 100%;
+	float: left;
+}
+
+.frogBlock img {
+	display: inline;
+	width: 40%;
+	float: right;
+	margin-right: 75px;
+}
+
+.text {
+	color: black;
+	text-align: left;
+	font-size: 23px;
+	margin-left: 100px;
+	margin-right: 900px;
+}
+
+.button {
+	font-size: 30px;
+	color: white;
+}
+
+#p0 {
+	text-indent: 2em;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
 ul {
 	list-style-type: none;
 	margin: 0;
