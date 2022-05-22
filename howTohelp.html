@@ -7,37 +7,56 @@
     <link rel="stylesheet" href="css/howTohelp.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
-
-<nav>
-    <ul>
-        <li><a class = "button" href="index.html">HOME</a></li>
-        <li><a class = "button" href="species.html">MEET THE SPECIES</a></li>
-        <li><a class = "button" href="howTohelp.html">CONSERVATION EFFORTS</a></li>
-        <li><a class = "button" href="donation.html">HOW YOU CAN HELP</a></li></li>
-        <br>
-    </ul>
-</nav>
+    <nav>
+        <ul id="nav">
+            <li id="nav"><a class = "button" href="index.html">HOME</a></li>
+            <li id="nav"><a class = "button" href="species.html">MEET THE SPECIES</a></li>
+            <li id="nav"><a class = "button" href="howTohelp.html">CONSERVATION EFFORT</a></li>
+            <li id="nav"><a class = "button" href="donation.html">HOW YOU CAN HELP</a></li></li>
+        </ul>
+    </nav>
 <div class = "container">
-<body onload="hideDef()">
     
+<body onload="hideDef()">
     <h1 id="" >Animal Conservation Efforts</h1>
+    <div id="info"> 
     <input type="button" id="ocean" value="Ocean Projects" onclick='viewTopic("Ocean")' />
     <input type="button" id="forest" value="Forest Projects" onclick='viewTopic("Forest")' />
     <input type="button" id="others" value="Others" onclick='viewTopic("Others")' />
     <div id="Ocean">
-        <h2>Ocean Projects</h2>
-       <ul id="ocean">
-           <li>Stopping Ghost Gear</li>
-           <li>Universal Standards for Seafood Traceability</li>
-       </ul>
+    <h2>Ocean Projects</h2> 
+    <ul class="a">
+        <li>Stopping Ghost Gear</li>
+        <li>Universal Standards for Seafood</li>
+        <li>Accelerating Tuna Sustainability through the Global FIP Alliance for Sustainable Tuna (G-FAST)</li>
+    </ul>
+    <a class="ReadMore" href="https://www.worldwildlife.org/initiatives/oceans">Read More</a><br>
+    <img id="Ocean" src = "pictures/turtle.jpg">
     </div>
 
     <div id="Forest">
         <h2>Forest Projects</h2>
-        <p>This is the second paragraph.</p>
+        <ul class="a">
+            <li>Thirty Hills</li>
+            <li>The Mobile Basin Heirs' Property Support Initiative</li>
+            <li>Transforming Peru's forest sector</li>
+        </ul>
+        <a class="ReadMore" href="https://www.worldwildlife.org/initiatives/forests">Read More</a><br>
+        <img id="Forest" src = "pictures/redpanda.jpg">
     </div>
-    <div id="Others">:)</div>
-    
+
+    <div id="Others">
+        <h2>Others</h2>
+        <ul class="a">
+            <li>Wildlife Crime Technology Project</li>
+            <li>Conserving Wildlife and Enabling Communities in Namibia</li>
+            <li>Closing Asia's Ivory Markets</li>
+        </ul>
+        <a class="ReadMore" href="https://www.worldwildlife.org/initiatives/wildlife-conservation">Read More</a>
+        <img id="Others" src = "pictures/penguin.jpg">
+    </div>
+</div>
+</div>
 <script src="scripts/howToHelp.js"></script>
 </body>
  
