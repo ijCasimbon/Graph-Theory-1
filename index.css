@@ -62,3 +62,25 @@
 #p0 {
 	text-indent: 2em;
 }
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	text-align: center;
+}
+li a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #202020;
+}
