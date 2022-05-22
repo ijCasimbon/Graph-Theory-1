@@ -6,7 +6,7 @@
 .block {
     display: inline-block;
     width: 1000px;
-    height: 1550px;
+    height: 2100px;
     background-color: lightgray;
   }
 
@@ -14,6 +14,13 @@
     display: inline-block;
     width: 650px;
     height: 200px;
+    background-color: white;
+}
+
+.gsquareSubBlock{
+    display: inline-block;
+    width: 650px;
+    height: 300px;
     background-color: white;
 }
 
@@ -27,27 +34,27 @@
 .lwideSubBlock{
     display: inline-block;
     width: 600px;
-    height: 250px;
+    height: 360px;
     background-color: white;
 }
 .rsquareSubBlock{
     display: inline-block;
     width: 650px;
-    height: 275px;
+    height: 400px;
     background-color: white;
 }
 
 .vwideSubBlock{
     display: inline-block;
     width: 600px;
-    height: 250px;
+    height: 330px;
     background-color: white;
 }
 
 .esquareSubBlock{
     display: inline-block;
     width: 650px;
-    height: 320px;
+    height: 425px;
     background-color: white;
 }
 
