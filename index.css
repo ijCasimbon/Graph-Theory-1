@@ -4,12 +4,51 @@
 	box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #202020;
+}
+
 .container {
 	text-align: left;
 	display: inline-block;
 	width: 100%;
 	height: 1550px;
-	background-color: white;
+	background-color: #EEEEEE;
+}
+
+.titleBlock img {
+	display: block;
+	margin-top: 86px;
+	width: 100%;
+	float: right;
 }
 
 .border {
@@ -17,9 +56,10 @@
 	width: 100%;
 	height: 1550px;
 	text-align: center;
+	background-color: #EEEEEE;
 }
 
-.TitleName1 {
+.TitleNameL {
 	color: black;
 	font-size: 35px;
 	text-align: left;
@@ -29,29 +69,63 @@
 .TitleBlock1 {
 	display: inline-block;
 	width: 100%;
-	height: 580px;
-	background-color: white;
+	height: 560px;
+	background-color: #EEEEEE;
 }
 
-.titleBlock img {
-	display: block;
+.TitleNameR {
+	color: black;
+	font-size: 35px;
+	text-align: left;
+	margin-left: 50%;
+}
+
+.TitleBlock2 {
+	display: inline-block;
 	width: 100%;
-	float: left;
+	height: 580px;
+	background-color: #EEEEEE;
 }
 
-.frogBlock img {
-	display: inline;
+.TitleBlock3 {
+	display: inline-block;
+	width: 100%;
+	height: 630px;
+	background-color: #EEEEEE;
+}
+
+.imgR img {
+	display: inline-block;
+	vertical-align: top;
 	width: 40%;
+	height: auto;
 	float: right;
 	margin-right: 75px;
+	border-width: 50px;
 }
 
-.text {
+.imgL img {
+	display: inline;
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-left: 75px;
+}
+
+.textL {
 	color: black;
 	text-align: left;
 	font-size: 23px;
 	margin-left: 100px;
-	margin-right: 900px;
+	margin-right: 50%;
+}
+
+.textR {
+	color: black;
+	text-align: left;
+	font-size: 23px;
+	margin-left: 50%;
+	margin-right: 100px;
 }
 
 .button {
@@ -61,26 +135,4 @@
 
 #p0 {
 	text-indent: 2em;
-}
-body {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #000000;
-	text-align: center;
-}
-li a {
-	float: left;
-	color: white;
-	text-align: center;
-	padding: 25px;
-	text-decoration: none;
-}
-li a:hover {
-	background-color: #202020;
 }
